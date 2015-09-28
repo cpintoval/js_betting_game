@@ -1,11 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
   <title>JS Betting Game</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
 </head>
 <body>
-  <h1>Welcome to the JavaScript Betting Game!</h1>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container main-container">
+    <div class="row">
+      <div class="twelve columns main-column">
+        <h1 class="banner">JavaScript Betting Game</h1>
+        <div class="start-page">
+          <h3><strong><i class="fa fa-gamepad"></i> Game Rules</strong></h3>
+          <div class="rules">
+            <table>
+              <tbody>
+                <tr>
+                  <td><i class="fa fa-money fa-3x"></i></td>
+                  <td>Start off with $100 and place bets between $5 and $10</td>
+                </tr>
+                <tr>
+                  <td><i class="fa fa-question-circle fa-3x"></i></td>
+                  <td>Each turn you guess a random number between 1 and 10.</td>
+                </tr>
+                <tr>
+                  <td><i class="fa fa-check-circle fa-3x"></i></td>
+                  <td>Exact number doubles your bet. Off by one? Get your bet back. Wrong choice, lose your bet.</td>
+                </tr>
+                <tr>
+                  <td><i class="fa fa-exclamation-circle fa-3x"></i></td>
+                  <td>The game ends when you run out of cash.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <button class="button start-game">Start Game</button>
+        </div>
+        <div class="game-page">
+          <p>Hello World!</p>
+          <!-- <form>
+          <div class="row">
+            <p>Hello World!</p>
+          </div>
+        </form> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
   <script type="text/javascript" src="./logic.js"></script>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 </html>

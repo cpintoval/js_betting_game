@@ -1,0 +1,40 @@
+body {
+  font-family: 'Oswald', sans-serif !important;
+  background-color: #3B5998;
+}
+
+.main-container {
+  text-align: center;
+  margin: 1% auto;
+}
+
+.main-column {
+  text-align: center;
+  border: 5px solid black;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
+  background-color: #FFC80D;
+}
+
+.rules {
+  width: 50%;
+  text-align: justify;
+  margin: 0 auto;
+}
+
+.rule {
+  text-align: center;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+
+.button {
+  background-color: black;
+  color: white;
+}
+
+.banner {
+  font-family: 'Lobster', cursive;
+}
+
+

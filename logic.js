@@ -32,6 +32,9 @@ $(document).ready(function() {
 
   };
 
-  gameLogic();
+  $('.start-page').on('click', 'button', function() {
+    $('.start-page').remove();
+    $('.game-page').toggle();
+  });
 
 });

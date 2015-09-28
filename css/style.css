@@ -14,18 +14,14 @@ body {
   border-radius: 10px;
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
   background-color: #FFC80D;
+  position: relative;
+  height: 520px;
 }
 
 .rules {
   width: 50%;
   text-align: justify;
   margin: 0 auto;
-}
-
-.rule {
-  text-align: center;
-  border: 5px solid black;
-  border-radius: 10px;
 }
 
 .button {
@@ -37,4 +33,20 @@ body {
   font-family: 'Lobster', cursive;
 }
 
+.start-page {
+  position: relative;
+}
+
+.game-page {
+  position: relative;
+}
+
+.item {
+  border-radius: 5px solid black;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  margin: 10px auto;
+}
 

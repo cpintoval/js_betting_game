@@ -15,7 +15,6 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 
@@ -65,13 +64,24 @@
           </div>
           <button class="button start-game">Start Game</button>
         </div>
-        <div class="game-page">
-          <p>Hello World!</p>
-          <!-- <form>
-          <div class="row">
-            <p>Hello World!</p>
+        <div class="game-page" style="display: none">
+          <div class="cash-banner">
+            <i class="fa fa-money fa-3x"></i>
+            <h2 class="cash">$100</h2>
           </div>
-        </form> -->
+          <form>
+            <div class="row">
+              <div class="twelve columns">
+                <label for="bet">Place a bet between $5 and $10</label>
+                <input type="text" id="bet" placeholder="Bet here...">
+                <label for="guess">Enter your guess for a number between 1 and 10</label>
+                <input type="text" id="guess" placeholder="Guess here...">
+                <br>
+                <br>
+                <button class="button check">Check Guess</button>
+              </div>
+            </div>
+        </form>
         </div>
       </div>
     </div>

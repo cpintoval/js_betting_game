@@ -33,8 +33,12 @@ $(document).ready(function() {
   };
 
   $('.start-page').on('click', 'button', function() {
-    $('.start-page').remove();
-    $('.game-page').toggle();
+    $('.start-page').toggle("slow");
+    $('.game-page').toggle("slow");
+  });
+
+  $('.game-page').on('click', 'button', function() {
+    
   });
 
 });
